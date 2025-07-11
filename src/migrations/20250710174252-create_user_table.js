@@ -60,7 +60,7 @@ module.exports = {
                 type: Sequelize.INTEGER,
                 allowNull: true,
                 defaultValue: 1,
-                comment: "1->only otp registered, 0->full registered"
+                comment: "0 -> otp not verified, 1->only otp registered, 2->full registered"
             },
             status: {
                 type: Sequelize.INTEGER,
