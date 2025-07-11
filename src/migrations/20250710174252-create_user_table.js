@@ -10,6 +10,10 @@ module.exports = {
                 allowNull: false,
                 primaryKey: true,
             },
+            full_name: {
+                type: Sequelize.STRING(255),
+                allowNull: true,
+            },
             username: {
                 type: Sequelize.STRING(255),
                 allowNull: false,
