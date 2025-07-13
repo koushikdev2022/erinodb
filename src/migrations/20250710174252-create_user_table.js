@@ -63,7 +63,7 @@ module.exports = {
             is_only_otp_registered: {
                 type: Sequelize.INTEGER,
                 allowNull: true,
-                defaultValue: 1,
+                defaultValue: 0,
                 comment: "0 -> otp not verified, 1->only otp registered, 2->full registered"
             },
             status: {
