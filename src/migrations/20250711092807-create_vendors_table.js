@@ -32,12 +32,12 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false
       },
-      shop_name:{
+      brand_name:{
         type: Sequelize.STRING,
         allowNull: false
       },
-      location_address:{
-        type: Sequelize.TEXT('long'),
+      zip_code:{
+        type: Sequelize.STRING,
         allowNull: false,
       },
       full_address:{

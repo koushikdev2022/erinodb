@@ -21,12 +21,6 @@ module.exports = {
       after: 'first_name',
       
     });
-    await queryInterface.addColumn('vendors', 'gst_number', {
-      type: Sequelize.STRING,
-      allowNull: false,
-      after: 'shop_name',
-      
-    });
   },
 
   async down (queryInterface, Sequelize) {
