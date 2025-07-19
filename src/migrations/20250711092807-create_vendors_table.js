@@ -36,14 +36,6 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false
       },
-      zip_code:{
-        type: Sequelize.STRING,
-        allowNull: false,
-      },
-      full_address:{
-        type: Sequelize.TEXT('long'),
-        allowNull: true,
-      },
       otp:{
         type: Sequelize.STRING,
         allowNull: true,
@@ -53,14 +45,6 @@ module.exports = {
         type: Sequelize.DATE,
         allowNull: true,
  
-      },
-      lat:{
-        type: Sequelize.FLOAT,
-        allowNull: true,
-      },
-      longitude:{
-        type: Sequelize.FLOAT,
-          allowNull: true,
       },
       avatar:{
         type: Sequelize.STRING,
