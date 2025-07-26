@@ -1,5 +1,7 @@
 'use strict';
 
+const { defaultValueSchemable } = require('sequelize/lib/utils');
+
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up (queryInterface, Sequelize) {
@@ -9,13 +11,18 @@ module.exports = {
      * Example:
      * await queryInterface.createTable('users', { id: Sequelize.INTEGER });
      */
-    await queryInterface.changeColumn('vendor_shops', 'lat', {
-      type: Sequelize.DECIMAL(10, 8),
-      allowNull: true,
+    await queryInterface.addColumn('vendors', 'is_deleted', {
+      type: Sequelize.INTEGER,
+      allowNull: false,
+      defaultValue:0,
+      after: 'is_only_otp_registered',
+      
     });
-    await queryInterface.changeColumn('vendor_shops', 'long', {
-      type: Sequelize.DECIMAL(11, 8),
+    await queryInterface.addColumn('vendors', 'last_login', {
+      type: Sequelize.DATE,
       allowNull: true,
+      after: 'avatar',
+      
     });
   },
 
