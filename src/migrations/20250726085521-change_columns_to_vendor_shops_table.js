@@ -10,11 +10,11 @@ module.exports = {
      * await queryInterface.createTable('users', { id: Sequelize.INTEGER });
      */
     await queryInterface.changeColumn('vendor_shops', 'lat', {
-      type: Sequelize.DOUBLE(10, 2),
+      type: Sequelize.DECIMAL(10, 8),
       allowNull: false,
     });
     await queryInterface.changeColumn('vendor_shops', 'long', {
-      type: Sequelize.DOUBLE(10, 2),
+      type: Sequelize.DECIMAL(11, 8),
       allowNull: false,
     });
   },
