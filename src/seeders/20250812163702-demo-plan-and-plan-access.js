@@ -9,9 +9,9 @@ module.exports = {
         id: 1,
         price: 100.00,
         currency: 'INR',
-        frequency: 1, // monthly
+        frequency: 12, // monthly
         plan_name: 'Earns Base',
-        price_id: 'price_earns_base_monthly',
+        price_id: 'plan_R6tUSO4140lJzs',
         status: 1,
         created_at: new Date(),
         updated_at: new Date()
@@ -20,9 +20,9 @@ module.exports = {
         id: 2,
         price: 499.00,
         currency: 'INR',
-        frequency: 1, // monthly
+        frequency: 12, // monthly
         plan_name: 'Earns Boost',
-        price_id: 'price_earns_boost_monthly',
+        price_id: 'plan_R6tVB1PndJBYgA',
         status: 1,
         created_at: new Date(),
         updated_at: new Date()
@@ -31,9 +31,9 @@ module.exports = {
         id: 3,
         price: 1499.00,
         currency: 'INR',
-        frequency: 1, // monthly
+        frequency: 12, // monthly
         plan_name: 'Earns Pro',
-        price_id: 'price_earns_pro_monthly',
+        price_id: 'plan_R6tVnpoaVN5BvD',
         status: 1,
         created_at: new Date(),
         updated_at: new Date()
@@ -42,9 +42,9 @@ module.exports = {
         id: 4,
         price: 2999.00,
         currency: 'INR',
-        frequency: 1, // monthly
+        frequency: 12, // monthly
         plan_name: 'Earns Elite',
-        price_id: 'price_earns_elite_monthly',
+        price_id: 'plan_R6tWVaQ5M8VFzT',
         status: 1,
         created_at: new Date(),
         updated_at: new Date()
