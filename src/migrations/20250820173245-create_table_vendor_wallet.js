@@ -22,6 +22,10 @@ module.exports = {
                 type: Sequelize.DATEONLY,
                 allowNull: true,
             },
+            type: {
+                type: Sequelize.STRING(255),
+                allowNull: true,
+            },
             status: {
                 type: Sequelize.TINYINT,
                 allowNull: false,
