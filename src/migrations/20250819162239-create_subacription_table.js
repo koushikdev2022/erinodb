@@ -50,6 +50,10 @@ module.exports = {
         type: Sequelize.TINYINT,
         allowNull: true,
       },
+      paid_count: {
+        type: Sequelize.INTEGER,
+        allowNull: true,
+      },
       subscription_status: {
         type: Sequelize.STRING,
         allowNull: false,
