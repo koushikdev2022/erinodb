@@ -10,7 +10,7 @@ module.exports = {
         price: 100.00,
         currency: 'INR',
         frequency: 12, // monthly
-        plan_name: 'Earns Base',
+        plan_name: 'Earno Base',
         price_id: 'plan_R6tUSO4140lJzs',
         status: 1,
         created_at: new Date(),
@@ -21,7 +21,7 @@ module.exports = {
         price: 499.00,
         currency: 'INR',
         frequency: 12, // monthly
-        plan_name: 'Earns Boost',
+        plan_name: 'Earno Boost',
         price_id: 'plan_R6tVB1PndJBYgA',
         status: 1,
         created_at: new Date(),
@@ -32,7 +32,7 @@ module.exports = {
         price: 1499.00,
         currency: 'INR',
         frequency: 12, // monthly
-        plan_name: 'Earns Pro',
+        plan_name: 'Earno Pro',
         price_id: 'plan_R6tVnpoaVN5BvD',
         status: 1,
         created_at: new Date(),
@@ -43,7 +43,7 @@ module.exports = {
         price: 2999.00,
         currency: 'INR',
         frequency: 12, // monthly
-        plan_name: 'Earns Elite',
+        plan_name: 'Earno Elite',
         price_id: 'plan_R6tWVaQ5M8VFzT',
         status: 1,
         created_at: new Date(),
