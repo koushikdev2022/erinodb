@@ -24,7 +24,7 @@ module.exports = {
       day_id: {
         type: Sequelize.BIGINT,
         allowNull: false,
-        comment: 'Reference to vendor shops table',
+        comment: 'Reference to days table',
       },
       start_time: {
         type: Sequelize.TIME,
