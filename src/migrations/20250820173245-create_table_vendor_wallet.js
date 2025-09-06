@@ -10,21 +10,14 @@ module.exports = {
                 autoIncrement: true,
                 primaryKey: true,
             },
+            vendor_point: {
+                type: Sequelize.BIGINT,
+                allowNull: false,
+                defaultValue: 0,
+            },
             vendor_id: {
                 type: Sequelize.BIGINT,
                 allowNull: false,
-            },
-            coin: {
-                type: Sequelize.INTEGER,
-                allowNull: true,
-            },
-            exp_date: {
-                type: Sequelize.DATEONLY,
-                allowNull: true,
-            },
-            type: {
-                type: Sequelize.STRING(255),
-                allowNull: true,
             },
             status: {
                 type: Sequelize.TINYINT,
@@ -33,14 +26,27 @@ module.exports = {
             },
             created_at: {
                 type: Sequelize.DATE,
-                allowNull: true,
+                allowNull: false,
                 defaultValue: Sequelize.literal('CURRENT_TIMESTAMP'),
             },
             updated_at: {
                 type: Sequelize.DATE,
-                allowNull: true,
+                allowNull: false,
                 defaultValue: Sequelize.literal('CURRENT_TIMESTAMP'),
             },
+        });
+
+        // Add indexes for better performance
+        await queryInterface.addIndex('vendor_wallet', ['vendor_id'], {
+            name: 'idx_vendor_wallet_vendor_id'
+        });
+
+        await queryInterface.addIndex('vendor_wallet', ['status'], {
+            name: 'idx_vendor_wallet_status'
+        });
+
+        await queryInterface.addIndex('vendor_wallet', ['vendor_id', 'status'], {
+            name: 'idx_vendor_wallet_vendor_status'
         });
     },
 
