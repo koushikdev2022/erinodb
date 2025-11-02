@@ -12,7 +12,7 @@ const morgan = require('morgan');
 const defaultErrorHandler = require("./src/middleware/common/customErrorHandlingMiddleware");
 const { logMiddleware, logger } = require("./src/logger/logger.js");
 const sequelize = require("./src/config/db.js");
-const v1MainLoadRouter = require("./src/router/v1load.route.js");
+const v1MainLoadRouter = require("./src/router/v1Load.route.js");
 
 const app = express();
 
