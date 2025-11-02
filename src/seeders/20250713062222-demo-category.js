@@ -7,14 +7,14 @@ module.exports = {
         cat_name: 'Grocery',
         cat_short_name: 'Gr',
         status: 1,
-        banner: "banner1.png",
+        banner: "assets/category/grocery.jpg",
         created_at: new Date(),
         updated_at: new Date()
       },
       {
         cat_name: 'Pharmacy',
         cat_short_name: 'Ph',
-        banner: "banner1.png",
+        banner: "assets/category/pharmacy.jpg",
         status: 1,
         created_at: new Date(),
         updated_at: new Date()
@@ -22,7 +22,7 @@ module.exports = {
       {
         cat_name: 'Clothing',
         cat_short_name: 'Cloth',
-        banner: "banner1.png",
+        banner: "assets/category/clothing.jpg",
         status: 1,
         created_at: new Date(),
         updated_at: new Date()
@@ -30,7 +30,7 @@ module.exports = {
       {
         cat_name: 'Cafe',
         cat_short_name: 'Ca',
-        banner: "banner1.png",
+        banner: "assets/category/cafe.jpg",
         status: 1,
         created_at: new Date(),
         updated_at: new Date()
@@ -38,7 +38,7 @@ module.exports = {
       {
         cat_name: 'Restaurant',
         cat_short_name: 'Res',
-        banner: "banner1.png",
+        banner: "assets/category/restaurant.jpg",
         status: 1,
         created_at: new Date(),
         updated_at: new Date()
