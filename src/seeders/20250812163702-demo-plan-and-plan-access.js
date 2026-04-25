@@ -16,7 +16,7 @@ module.exports = {
         price: 100.00,
         currency: 'INR',
         frequency: 12, // 12 Months (Yearly)
-        price_id: 'plan_R6tUSO4140lJzs',
+        price_id: 'plan_ScIBrh53wclVSi',
         status: 1,
         created_at: new Date(),
         updated_at: new Date()
