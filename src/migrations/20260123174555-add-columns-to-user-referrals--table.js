@@ -14,7 +14,7 @@ module.exports = {
       'expired_at',
       {
         type: Sequelize.DATE,
-        allowNull: false,
+        allowNull: true,
         after: 'refered_user_id'
       }
     );
