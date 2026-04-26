@@ -28,7 +28,7 @@ module.exports = {
         price: 499.00,
         currency: 'INR',
         frequency: 12, // 12 Months (Yearly)
-        price_id: 'plan_R6tVB1PndJBYgA',
+        price_id: 'plan_Si2ENat3qPinvg',
         status: 1,
         created_at: new Date(),
         updated_at: new Date()
@@ -40,7 +40,7 @@ module.exports = {
         price: 1499.00,
         currency: 'INR',
         frequency: 12, // 12 Months (Yearly)
-        price_id: 'plan_R6tVnpoaVN5BvD',
+        price_id: 'plan_Si2Glyn9FJbabW',
         status: 1,
         created_at: new Date(),
         updated_at: new Date()
@@ -52,7 +52,7 @@ module.exports = {
         price: 2999.00,
         currency: 'INR',
         frequency: 12, // 12 Months (Yearly)
-        price_id: 'plan_R6tWVaQ5M8VFzT',
+        price_id: 'plan_Si2K7vj21Gn6Dt',
         status: 1,
         created_at: new Date(),
         updated_at: new Date()
